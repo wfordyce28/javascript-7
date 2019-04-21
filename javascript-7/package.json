@@ -1,0 +1,33 @@
+{
+  "name": "atm",
+  "version": "1.0.0",
+  "description": "an atm PWA",
+  "main": "app.js",
+  "scripts": {
+    "start": " node bin/upload_server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 11.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wfordyce28/javascript-7.git"
+  },
+  "author": "William Fordyce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfordyce28/javascript-7/issues"
+  },
+  "homepage": "https://github.com/wfordyce28/javascript-7#readme",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "heroku": "^7.22.7",
+    "node": "^11.13.0",
+    "node.js": "0.0.0"
+  },
+  "devDependencies": {
+    "css-aspect-ratio": "^1.0.5"
+  }
+}

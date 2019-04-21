@@ -1,0 +1,90 @@
+#top-logo{
+    padding-bottom: 20px;
+    background-color: white;
+}
+#top-toppy{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#bottom-er{
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    color: #000000;
+}
+#outer{
+    background-color: white;
+}
+#bottom{
+    height: 410px;
+    padding-top: 20px;
+}
+#welcome{
+    color: black;
+}
+.bottom-1-2-3{
+    height: 136px;
+    display: flex;
+    justify-content: space-around;
+}
+.boxes{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    background-color: #016205;
+    border-radius: 8px;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.bottom-split{
+    width: 50%;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+.boxes-2{
+    width: 40%;
+    height: 100px;
+    background-color: #016205;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+p{
+    display: flex;
+    font-size: 30px;
+    font-family: "Junction-Regular";
+}
+h1{
+    font-family: "Junction-Regular";
+}
+a:hover{
+    background-color: #5c994d;
+    color: white;
+}
+a{
+    text-underline: none;
+}
+@media only screen and (max-width: 425px) {
+    img{
+        width: 267px;
+        height: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@font-face {
+    font-family: "Junction-Regular";
+
+    src:url("../FONTS/Junction-regular[1].woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
